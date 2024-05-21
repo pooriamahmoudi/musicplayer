@@ -1,0 +1,53 @@
+.search-box {
+  > input {
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.8rem 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .search-list {
+    display: none;
+    position: absolute;
+    background-color: rgb(80, 84, 122);
+    width: 18rem;
+    height: 13rem;
+    margin-left: -3rem;
+    margin-top: 0.6rem;
+    border-radius: 1.2rem;
+    overflow: scroll;
+    padding: 0.5rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    .artist {
+      display: flex;
+      text-decoration: none;
+      color: black;
+      margin-top: 0.5rem;
+      background-color: aliceblue;
+      border-radius: 1rem;
+      padding: 4px;
+
+      img {
+        height: 2.5rem;
+        width: 3rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+      }
+      > div {
+        .follow {
+          color: grey;
+          font-size: 10px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.header {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-section {
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section2 {
+  margin-top: 1rem;
+  width: 30rem;
+  display: flex;
+  gap: 0.4rem;
+}/*# sourceMappingURL=home.css.map */

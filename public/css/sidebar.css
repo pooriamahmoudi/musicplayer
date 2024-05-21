@@ -1,0 +1,37 @@
+.sidebar {
+  height: 50%;
+  color: whitesmoke;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.sidebar > div .link {
+  color: whitesmoke;
+}
+.sidebar > div .link .icon:hover {
+  cursor: pointer;
+}
+.sidebar > div .icon:hover {
+  cursor: pointer;
+}
+.sidebar > .up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}
+.sidebar .line {
+  margin-block: 2rem;
+  width: 2.5rem;
+  height: 1px;
+  background-color: whitesmoke;
+  opacity: 0.5;
+}
+.sidebar .down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}/*# sourceMappingURL=sidebar.css.map */

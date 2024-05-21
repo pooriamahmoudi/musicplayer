@@ -1,0 +1,55 @@
+.slider-container {
+  background-color: black;
+  height: 12rem;
+  width: 30rem;
+  border-radius: 1.2rem;
+
+  > .slider {
+    padding: rem;
+    border-radius: 1.2rem;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .one {
+      height: 12rem;
+      border-radius: 1.2rem;
+      padding: 0rem;
+      background-image: url("../../src/assets/techno\ house.png");
+      background-position: center/center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .tow {
+      height: 12rem;
+      border-radius: 1.2rem;
+      padding: 0rem;
+      background-image: url("../../src/assets/technooo.png");
+      background-position: center/center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .three {
+      height: 12rem;
+      border-radius: 1.2rem;
+      padding: 0rem;
+      background-image: url("../../src/assets/house.png");
+      background-position: center/center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .four {
+      height: 12rem;
+      border-radius: 1.2rem;
+      padding: 0rem;
+      background-image: url("../../src/assets/hiphop.png");
+      background-position: center/center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

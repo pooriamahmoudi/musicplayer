@@ -1,0 +1,51 @@
+.artists-container {
+  background-color: white;
+  border-radius: 1rem;
+  width: 18rem;
+  height: 12rem;
+  overflow: scroll;
+  padding-inline: 0.3rem;
+  box-shadow: 1px 1px 10px rgb(54, 54, 88), 1px 1px 10px rgb(54, 54, 88);
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  > .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+    }
+  }
+
+  .list {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    .artist {
+      display: flex;
+      text-decoration: none;
+      color: black;
+
+      img {
+        height: 2.5rem;
+        width: 3rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+      }
+      > div {
+        .follow {
+          color: grey;
+          font-size: 10px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.artistPage-container .header-page {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(50, 60, 94);
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 2rem;
+}
+.artistPage-container .header-page .artist-img {
+  height: 15rem;
+  border-radius: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem rgba(187, 194, 198, 0.556);
+}
+.artistPage-container .header-page > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.artistPage-container .header-page > div .artist-name {
+  font-size: 2.5rem;
+  color: rgba(232, 228, 228, 0.841);
+}
+.artistPage-container .header-page > div .artist-follower {
+  font-size: 0.9rem;
+}
+.artistPage-container .header-page > div .artist-follower span {
+  font-size: 1.2rem;
+  color: rgba(232, 228, 228, 0.577);
+}
+.artistPage-container .header-page > div .artist-trackNumber {
+  font-size: 0.9rem;
+}
+.artistPage-container .header-page > div .artist-trackNumber span {
+  font-size: 1.2rem;
+  color: rgba(232, 228, 228, 0.577);
+}
+.artistPage-container .tracks-container {
+  height: 19rem;
+  width: 85%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.artistPage-container .tracks-container::-webkit-scrollbar {
+  display: none;
+}
+.artistPage-container .tracks-container .card {
+  margin-block: 0.5rem;
+  width: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.3rem 0.3rem 0.6rem rgba(20, 61, 84, 0.556);
+}
+.artistPage-container .tracks-container .card img {
+  height: 5rem;
+  border-radius: 1rem;
+}
+.artistPage-container .tracks-container .card .detail {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 10rem 5rem 10rem 5rem;
+}/*# sourceMappingURL=artistPage.css.map */
