@@ -71,7 +71,6 @@ const Player = () => {
     if (repeatButton.current.classList.contains("active")) {
       const index = indexTrack;
       goTrackIndex(index);
-      console.log(index);
 
       audioTagRef.current.play();
     } else if (randomButton.current.classList.contains("active")) {
@@ -116,7 +115,9 @@ const Player = () => {
         <div
           ref={lineElementRef}
           className="line"
-          style={{ width: `${(currentTime / originalDuration) * 100}%` }}
+          style={{
+            width: `${(currentTime / originalDuration) * 100}%`,
+          }}
         ></div>
       </div>
       <div className="timing">
